@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Chemistry Hub - entry test Chemistry Coaching</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header & Hero -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="logo.jpg" alt="The Chemistry Hub Logo" />
+      </div>
+      <div class="header-text">
+        <h1 class="business-name">The Chemistry Hub</h1>
+        <p class="instructor">Instructor: Atif Mehmood Qureshi</p>
+        <h2 class="main-headline">Online <span class="highlight">Entry Test</span> Chemistry Coaching</h2>
+        <p class="sub-headline">New cource available for enrollment</strong></p>
+        <button id="bookSeatBtn" class="btn btn-primary">Book Your Seat</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <h2 class="section-title">Why <span class="highlight">Choose</span> Us?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon">💡</div>
+        <h3>Concept Building</h3>
+        <p>From Basics to Advance.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎯</div>
+        <h3>Exam Focused</h3>
+        <p>Approach & Past Papers Practice.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📊</div>
+        <h3>Regular Tests</h3>
+        <p>& Performance Analysis.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📚</div>
+        <h3>Comprehensive Notes</h3>
+        <p>& Practice Sheets.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📹</div>
+        <h3>Live Interactive Sessions</h3>
+        <p>on Google Meet/Zoom.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎧</div>
+        <h3>Personalized Guidance</h3>
+        <p>& Doubt Support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Bar -->
+  <div class="info-bar">
+    <div class="info-content">
+      <span class="icon">👥</span>
+      <span class="info-text">Your daily dose of chemistry</span>
+    </div>
+  </div>
+
+  <!-- Enrollment Form -->
+  <section class="enroll-section" id="enrollForm">
+    <h2 class="section-title navy">Book Your Seat Today</h2>
+    <form id="enrollmentForm" class="enroll-form" autocomplete="off">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required />
+
+      <label for="fatherName">Father's Name</label>
+      <input type="text" id="fatherName" name="fatherName" required />
+
+      <label for="level">Level</label>
+      <select id="level" name="level" required>
+        <option value="" disabled selected>Select Level</option>
+
+        <optgroup label="OLevel">
+          <option value="OLevel - AS">AS</option>
+          <option value="OLevel - A2">A2</option>
+        </optgroup>
+
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="Metric">Metric</option>
+        <option value="Entry Test" selected>Entry Test</option>
+      </select>
+
+      <label for="phoneNumber">Phone Number</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required pattern="[0-9]{10,15}" placeholder="03101234567" />
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-item"><span>⚗️</span> Concept Clarity</div>
+      <div class="footer-item"><span>🎯</span> Better Results</div>
+      <div class="footer-item"><span>👤</span> Individual Attention</div>
+      <div class="footer-item"><span>🏆</span> Your Success is Our Goal</div>
+    </div>
+  </footer>
+</body>
+</html>
